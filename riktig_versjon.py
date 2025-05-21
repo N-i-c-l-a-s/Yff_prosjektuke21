@@ -11,7 +11,7 @@ dotenv_path = find_dotenv()
 
 # Be brukeren om brukernavn og passord/ generer tilfeldig passord
 input_username1 = input("Skriv inn brukernavnet ditt: ")
-Valg=input("vil du bruke et tilfeldig genrert sterkt passord? ja/nei")
+Valg=input("vil du bruke et tilfeldig genrert sterkt passord? ja/nei: ")
 
 if Valg == "nei":
     input_password = input("Skriv inn passordet ditt: ")
